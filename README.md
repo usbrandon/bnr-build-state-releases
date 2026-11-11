@@ -12,13 +12,13 @@ The client needs a Branch & Row account and a run token (`BNR_URL`, `BNR_TOKEN`,
 Without them it runs dbt unchanged.
 
 ```
-uv tool install "https://github.com/usbrandon/bnr-build-state-releases/releases/download/bnr-build-state-v0.3.11/bnr_build_state-0.3.11-py3-none-any.whl[snowflake]" --with dbt-snowflake
+uv tool install "bnr-build-state[snowflake] @ https://github.com/usbrandon/bnr-build-state-releases/releases/download/bnr-build-state-v0.3.11/bnr_build_state-0.3.11-py3-none-any.whl" --with dbt-snowflake
 ```
 
 Extras: `snowflake`, `postgres`, `duckdb`. dbt itself is not bundled; install the dbt version and
 adapter your projects use.
 
-## Licence
+## License
 
 MIT. See [LICENSE](LICENSE).
 
