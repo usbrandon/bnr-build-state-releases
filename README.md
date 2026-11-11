@@ -18,6 +18,11 @@ uv tool install "bnr-build-state[snowflake] @ https://github.com/usbrandon/bnr-b
 Extras: `snowflake`, `postgres`, `duckdb`. dbt itself is not bundled; install the dbt version and
 adapter your projects use.
 
+## For AI assistants
+
+[AGENTS.md](AGENTS.md) (also imported by [CLAUDE.md](CLAUDE.md)) gives an assistant the install steps,
+configuration, commands, output meanings and safety rules for helping you run `bnr`.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
